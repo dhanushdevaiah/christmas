@@ -1,0 +1,120 @@
+body{
+   background-color: #a2d2ff;
+  font-family: "happy monkey", serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  background:radial-gradient(skyblue ,lightpink);
+}
+
+
+.head{
+    color: white;
+    display: block;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+.name{
+    display: block;
+    text-align: center;
+
+}
+
+#image{
+display: block;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+border: 10px solid palevioletred;
+  
+}
+
+#b-age{
+    color: white;
+    width: 10%;
+    display: flex;
+ margin-left: auto;
+ margin-right: auto;
+ text-shadow: 0px 0px 5px black;
+}
+
+#b-date{
+     color: white;
+    width: 10%;
+    display: flex;
+ margin-left: auto;
+ margin-right: auto;
+ text-shadow: 0px 0px 5px black;
+}
+
+.gift{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.gift-box{
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+    border-radius: 3%;
+    background-image: url("gift.jpeg");
+    background-size: cover;
+}
+
+
+h3{
+    margin-top: 2px;
+     text-shadow: 5px 5px 10px black;
+}
+
+.gift_style{
+    margin-bottom: 4px;
+    text-shadow: 5px 5px 10px black;
+}
+
+#birthdaywish{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px 10px;
+    border: 5px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+#messagecontainer{
+    display:block;
+    text-align: center;
+   font-size: 100px;
+   margin-top: 10px;
+}
+
+.gift-box:hover{
+    background-image: url("giphy.webp");
+}
+
+#name{
+    text-align: center;
+    margin-bottom: 5px;
+    font-style: italic;
+
+}
+
+#mail{
+    margin-top: 10px;
+display: block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+ font-style: italic;
+}
